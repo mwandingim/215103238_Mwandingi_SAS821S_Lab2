@@ -1,0 +1,12 @@
+file,rows,columns,missing_cells,full_row_duplicates,duplicate_id_rows,id_column
+ofs_employee_directory.csv,24,11,0,0,0,
+ofs_asset_inventory.csv,16,7,0,0,0,
+ofs_access_policy_matrix.csv,9,5,0,0,0,
+ofs_email_gateway_logs.csv,433,16,425,0,0,event_id
+ofs_vpn_authentication_logs.csv,317,13,311,0,0,event_id
+ofs_endpoint_process_logs.csv,568,14,0,0,0,event_id
+ofs_file_access_logs.csv,1114,14,0,0,0,event_id
+ofs_proxy_dlp_logs.csv,477,15,473,0,0,event_id
+ofs_threat_intelligence.csv,27,10,0,0,0,intel_id
+ofs_access_session_training.csv,3000,27,2699,0,0,session_id
+ofs_access_session_investigation.csv,450,26,415,0,0,session_id

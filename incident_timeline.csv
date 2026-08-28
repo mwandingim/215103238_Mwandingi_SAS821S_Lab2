@@ -1,0 +1,19 @@
+event_id,timestamp,evidence_source,observed_action,analytical_interpretation
+E00305,2026-09-11 16:54:12,Email gateway,Suspicious benefits-review email from ofservices-portal.com delivered.,Newly registered domain; gateway allowed it.
+E00307,2026-09-11 17:01:44,Email gateway,Second benefits-review reminder delivered.,Repeated phishing lure immediately before execution.
+P00378,2026-09-11 17:02:07,Endpoint,Chrome opened the benefits-review URL.,User interaction follows suspicious email.
+P00379,2026-09-11 17:03:19,Endpoint,Unsigned mshta.exe executed remote update.hta.,Strong execution indicator; TI-linked hash.
+P00380,2026-09-11 17:03:44,Endpoint,Hidden PowerShell with encoded command executed.,Strong compromise indicator.
+P00381,2026-09-11 17:04:12,Endpoint,rundll32 executed wupdate.dat.,Secondary execution consistent with malware.
+V00222-V00225,2026-09-11 18:18:05–18:19:22,VPN,Four failed Johannesburg VPN attempts from new device WIN-CLIENT-8472.,Repeated failures and MFA denials indicate credential misuse.
+V00226,2026-09-11 18:20:11,VPN,Johannesburg login succeeded after MFA approval.,Successful foreign access after failures.
+V00227,2026-09-11 18:22:01,VPN,Windhoek login succeeded on corporate workstation.,Two locations within minutes support impossible travel.
+P00388,2026-09-11 18:25:33,Endpoint,net.exe queried Domain Admins.,Discovery activity.
+P00389,2026-09-11 18:26:09,Endpoint,nltest.exe queried domain controllers.,Further discovery activity.
+X00759,2026-09-11 18:33:42,File access,CUSTOMER_EXPORT listed.,Role mismatch: officer lacks export permission.
+X00760-X00795,2026-09-11 18:34:00–18:45:05,File access,Rapid bulk KYC export downloads succeeded.,Restricted data collection.
+P00395,2026-09-12 00:26:16,Endpoint,7z created kyc_q3.zip from KYC exports.,Collection archived.
+P00396,2026-09-12 00:35:44,Endpoint,Unsigned rclone copied archive to remote storage.,Exfiltration staging/tool use.
+D00333,2026-09-12 00:36:12,Proxy/DLP,284.3 MB uploaded to cdn-storage-sync.net.,High-confidence TI exfiltration indicator; first transfer allowed.
+D00334,2026-09-12 00:43:51,Proxy/DLP,972.1 MB upload blocked.,Later transfer contained.
+D00335,2026-09-12 00:44:07,Proxy/DLP,22.4 MB upload blocked.,Further exfiltration attempt contained.

@@ -1,0 +1,15 @@
+source,event_id,timestamp,matched_field,indicator,intel_id,confidence,tactic,recommended_action
+endpoint,P00379,2026-09-11 17:03:19,sha256,37ed5aea92bb7c32618ef6810a3967d36006f6ef420621cea199c2edd479edda,TI1005,High,Execution,Quarantine file and hunt by hash
+proxy_dlp,D00310,2026-09-11 17:03:31,destination_domain,ofservices-portal.com,TI1001,High,Initial Access,Block domain; identify recipients and clicks
+proxy_dlp,D00310,2026-09-11 17:03:31,destination_ip,196.250.34.77,TI1002,High,Command and Control,Block IP; isolate contacting endpoints
+endpoint,P00380,2026-09-11 17:03:44,sha256,37ed5aea92bb7c32618ef6810a3967d36006f6ef420621cea199c2edd479edda,TI1005,High,Execution,Quarantine file and hunt by hash
+endpoint,P00381,2026-09-11 17:04:12,sha256,37ed5aea92bb7c32618ef6810a3967d36006f6ef420621cea199c2edd479edda,TI1005,High,Execution,Quarantine file and hunt by hash
+proxy_dlp,D00311,2026-09-11 17:05:02,destination_ip,196.250.34.77,TI1002,High,Command and Control,Block IP; isolate contacting endpoints
+proxy_dlp,D00313,2026-09-11 17:10:02,destination_ip,196.250.34.77,TI1002,High,Command and Control,Block IP; isolate contacting endpoints
+proxy_dlp,D00314,2026-09-11 17:15:03,destination_ip,196.250.34.77,TI1002,High,Command and Control,Block IP; isolate contacting endpoints
+proxy_dlp,D00333,2026-09-12 00:36:12,destination_domain,cdn-storage-sync.net,TI1003,High,Exfiltration,Block domain; review upload records
+proxy_dlp,D00333,2026-09-12 00:36:12,destination_ip,45.83.64.12,TI1004,High,Exfiltration,Block IP; investigate outbound transfers
+proxy_dlp,D00334,2026-09-12 00:43:51,destination_domain,cdn-storage-sync.net,TI1003,High,Exfiltration,Block domain; review upload records
+proxy_dlp,D00334,2026-09-12 00:43:51,destination_ip,45.83.64.12,TI1004,High,Exfiltration,Block IP; investigate outbound transfers
+proxy_dlp,D00335,2026-09-12 00:44:07,destination_domain,cdn-storage-sync.net,TI1003,High,Exfiltration,Block domain; review upload records
+proxy_dlp,D00335,2026-09-12 00:44:07,destination_ip,45.83.64.12,TI1004,High,Exfiltration,Block IP; investigate outbound transfers

@@ -1,0 +1,10 @@
+finding,assessment,evidence
+Affected account,mhaingura,Customer Service Officer; permitted CRM_BASIC and CUSTOMER_BASIC.
+Affected endpoint,WKST-CS-017,Assigned to mhaingura; Medium criticality; CrowdStrike installed.
+Initial access,Phishing / malicious benefits-review lure,E00305/E00307 followed by P00378-P00381 and TI1001/TI1005.
+Credential misuse,Supported,V00222-V00226 foreign/new-device access followed by V00227 in Windhoek.
+Privilege exceedance,Confirmed,CUSTOMER_EXPORT accessed despite officer role.
+Collection,Confirmed,Restricted KYC records downloaded in bulk.
+Archiving,Confirmed,P00395 created kyc_q3.zip.
+Exfiltration,"Confirmed, partial containment",D00333 allowed 284.3 MB; D00334/D00335 blocked later attempts.
+Control gaps,"Email, endpoint, VPN and DLP",Multiple preventive/detective controls allowed the chain to progress.

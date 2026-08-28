@@ -1,0 +1,16 @@
+session_id,timestamp,user_id,probability_score,rule_score,interpretation
+CASE-KYC-01,2026-09-11 18:33:00,mhaingura,0.9210557099587592,85.0,privilege mismatch; impossible travel; large download; new device; off-hours
+CASE-VPN-01,2026-09-11 18:18:00,mhaingura,0.8636760308610473,59.0,privilege mismatch; impossible travel; new device; off-hours; high destination risk
+S00232,2026-09-13 21:58:00,nambala,0.8494569328501,15.0,privilege mismatch
+CASE-EXFIL-01,2026-09-12 00:35:00,mhaingura,0.8387919717276786,81.0,privilege mismatch; impossible travel; large external upload; large download; new device
+CASE-EXFIL-02,2026-09-12 00:43:00,mhaingura,0.8116597485235881,65.0,privilege mismatch; impossible travel; large external upload; new device; off-hours
+S00300,2026-09-12 13:16:00,ntinda,0.7998542539863449,20.0,new device; MFA denials
+S00072,2026-09-13 17:40:00,ntinda,0.7784455826628401,26.0,privilege mismatch; impossible travel; MFA denials
+S00233,2026-09-09 05:32:00,tkamati,0.7726528112223615,15.0,MFA denials; failed logins
+S00195,2026-09-12 11:39:00,mhaingura,0.7422249668842337,15.0,MFA denials; failed logins
+S00223,2026-09-10 01:37:00,haufiku,0.7261183346283114,12.0,MFA denials
+S00427,2026-09-12 23:21:00,sihuhua,0.7237222009990525,13.0,failed logins
+S00015,2026-09-12 01:12:00,haufiku,0.7163548824482513,9.0,Elevated model score without a dominant single rule
+S00278,2026-09-08 08:51:00,katjiuongua,0.7151842896904889,27.0,new device; MFA denials; failed logins
+S00330,2026-09-07 06:33:00,katjiuongua,0.6966072655164663,20.0,MFA denials; failed logins
+S00290,2026-09-08 05:54:00,nnakale,0.6930708730983216,20.0,new device; MFA denials
